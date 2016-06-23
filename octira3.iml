@@ -12,6 +12,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-context:2.5.6.SEC02" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.atlassian.jira:jira-api:7.1.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.atlassian.annotations:atlassian-annotations:0.16" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.atlassian.ofbiz:entityengine-share:1.2.3" level="project" />
@@ -117,5 +118,12 @@
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.2.2-atlassian-1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.slf4j:slf4j-api:1.6.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-all:1.8.5" level="project" />
+    <orderEntry type="library" name="Maven: com.hpe.adm.nga.sdk:sdk-src:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.5" level="project" />
+    <orderEntry type="library" name="Maven: com.google.api-client:google-api-client:1.21.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.api-client:google-api-client-jackson2:1.21.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.api-client:google-api-client-gson:1.21.0" level="project" />
+    <orderEntry type="library" name="Maven: org.json:json:20160212" level="project" />
   </component>
 </module>

@@ -25,4 +25,8 @@
     <resource type="velocity" name="input-parameters" location="templates/postfunctions/update-octane-input.vm"/>
     <resource type="velocity" name="edit-parameters" location="templates/postfunctions/update-octane-input.vm"/>
   </workflow-function>
+  <component-import key="eventPublisher" interface="com.atlassian.event.api.EventPublisher"/>
+  <component key="eventListener" class="com.octane.jira.listener.IssueCreatedResolvedListener">
+    <description>Class that processes the incoming JIRA issue events.</description>
+  </component>
 </atlassian-plugin>
