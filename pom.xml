@@ -99,11 +99,11 @@
             <version>1.8.5</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
+        <!--dependency>
             <groupId>com.hpe.adm.nga.sdk</groupId>
             <artifactId>sdk-src</artifactId>
             <version>1.0-SNAPSHOT</version>
-        </dependency>
+        </dependency-->
     </dependencies>
     <build>
         <plugins>
@@ -115,7 +115,7 @@
                 <configuration>
                     <productVersion>${jira.version}</productVersion>
                     <productDataVersion>${jira.version}</productDataVersion>
-                    <log4jProperties>src/main/log4j.properties</log4jProperties>
+                    <!--log4jProperties>src/main/log4j.properties</log4jProperties-->
                     <!-- Uncomment to install TestKit backdoor in JIRA. -->
                     <!--
 					<pluginArtifacts>
