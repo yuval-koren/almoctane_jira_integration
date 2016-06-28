@@ -29,4 +29,9 @@
   <component key="eventListener" class="com.octane.jira.listener.IssueCreatedResolvedListener">
     <description>Class that processes the incoming JIRA issue events.</description>
   </component>
+  <customfield-type name="Octane ID" i18n-name-key="octane-id.name" key="octane-id" class="com.octane.jira.customfields.OctaneID">
+    <description key="octane-id.description">The Octane ID Plugin</description>
+    <resource name="view" type="velocity" location="/templates/customfields/octane-id/view.vm"/>
+    <resource name="edit" type="velocity" location="/templates/customfields/octane-id/edit.vm"/>
+  </customfield-type>
 </atlassian-plugin>

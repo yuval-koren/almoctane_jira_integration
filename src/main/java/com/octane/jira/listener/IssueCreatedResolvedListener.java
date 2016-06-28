@@ -19,7 +19,7 @@ public class IssueCreatedResolvedListener {
     public void onIssueEvent(IssueEvent issueEvent) {
         Long eventTypeId = issueEvent.getEventTypeId();
         Issue issue = issueEvent.getIssue();
-
+issue.
         if (eventTypeId.equals(EventType.ISSUE_CREATED_ID)) {
             log.info("Issue {} has been created at {}.", issue.getKey(), issue.getCreated());
         } else if (eventTypeId.equals(EventType.ISSUE_RESOLVED_ID)) {
