@@ -12,77 +12,7 @@
     <name>octira3</name>
     <description>This is the com.octane:octira3 plugin for Atlassian JIRA.</description>
     <packaging>atlassian-plugin</packaging>
-
     <dependencies>
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-api</artifactId>
-            <version>${log4j.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>${log4j.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.google.api-client</groupId>
-            <artifactId>google-api-client</artifactId>
-            <version>${google-api-client.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.google.api-client</groupId>
-            <artifactId>google-api-client-jackson2</artifactId>
-            <version>${google-api-client.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.google.api-client</groupId>
-            <artifactId>google-api-client-gson</artifactId>
-            <version>${google-api-client.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.json</groupId>
-            <artifactId>json</artifactId>
-            <version>${org-json.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-configuration2</artifactId>
-            <version>${commons-configuration.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>commons-beanutils</groupId>
-            <artifactId>commons-beanutils</artifactId>
-            <version>${commons-beanutils.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.powermock</groupId>
-            <artifactId>powermock-module-junit4</artifactId>
-            <version>${powermock.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.powermock</groupId>
-            <artifactId>powermock-api-mockito</artifactId>
-            <version>${powermock.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-core</artifactId>
-            <version>${mockito.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-        </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
@@ -244,18 +174,5 @@
         <atlassian.plugin.key>${project.groupId}.${project.artifactId}</atlassian.plugin.key>
         <!-- TestKit version 6.x for JIRA 6.x -->
         <testkit.version>6.3.11</testkit.version>
-        <log4j.version>2.5</log4j.version>
-        <google-api-client.version>1.21.0</google-api-client.version>
-        <org-json.version>20160212</org-json.version>
-        <junit.version>4.11</junit.version>
-        <powermock.version>1.6.1</powermock.version>
-        <mockito.version>1.9.5</mockito.version>
-        <maven-compiler.version>3.5.1</maven-compiler.version>
-        <java.version>1.8</java.version>
-        <cobertura.version>2.7</cobertura.version>
-        <commons-configuration.version>2.0</commons-configuration.version>
-        <commons-beanutils.version>1.9.2</commons-beanutils.version>
-        <maven-release.version>2.5.3</maven-release.version>
-        <maven-surefire.version>2.19.1</maven-surefire.version>
     </properties>
 </project>
