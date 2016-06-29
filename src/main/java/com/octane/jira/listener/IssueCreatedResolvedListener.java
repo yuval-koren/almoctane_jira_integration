@@ -26,7 +26,11 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.UUID;
 
 public class IssueCreatedResolvedListener implements InitializingBean, DisposableBean {
     private static final Logger log = LoggerFactory.getLogger(IssueCreatedResolvedListener.class);
