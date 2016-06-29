@@ -76,6 +76,7 @@
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.2.2-atlassian-1</version>
+            <scope>provided</scope>
         </dependency>
         <!-- Uncomment to use TestKit in your project. Details at https://bitbucket.org/atlassian/jira-testkit -->
         <!-- You can read more about TestKit at https://developer.atlassian.com/display/JIRADEV/Plugin+Tutorial+-+Smarter+integration+testing+with+TestKit -->
@@ -99,10 +100,40 @@
             <version>1.8.5</version>
             <scope>test</scope>
         </dependency>
-        <!--dependency>
+        <dependency>
             <groupId>com.hpe.adm.nga.sdk</groupId>
             <artifactId>sdk-src</artifactId>
             <version>1.0-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <!--dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>2.1.4</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.1.4</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-xml</artifactId>
+            <version>2.1.4</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-yaml</artifactId>
+            <version>2.1.4</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.lmax</groupId>
+            <artifactId>disruptor</artifactId>
+            <version>3.3.4</version>
         </dependency-->
     </dependencies>
     <build>
